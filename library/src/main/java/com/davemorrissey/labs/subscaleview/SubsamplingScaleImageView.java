@@ -132,7 +132,7 @@ public class SubsamplingScaleImageView extends View {
     public static final int ORIGIN_DOUBLE_TAP_ZOOM = 4;
 
     // Bitmap (preview or full image)
-    private Bitmap bitmap;
+    protected Bitmap bitmap;
 
     // Whether the bitmap is a preview image
     private boolean bitmapIsPreview;
